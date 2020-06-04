@@ -7,10 +7,16 @@
  Version:      1.0.0
 */
 
-a:hover {
+.site-title {
+  font-family: "Alegreya Sans",sans-serif;
+}
+
+.site-title a:hover {
   color: #1fa6e8;
 }
 
 .main-navigation li:hover > a, .main-navigation li.focus > a, .main-navigation li.current-menu-item > a {
     background: #1fa6e8;
 }
+
+
