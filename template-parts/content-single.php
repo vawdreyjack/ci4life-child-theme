@@ -77,7 +77,13 @@
             padding: 10px;
             background-color: #1fa6e8;
             color: #fff !important;
-        }
+		}
+		
+		@media (max-width:400px) {
+			.call-btn {
+				font-size: 16px;
+			}
+		}
     </style>
 
     <div class="flex-cont">

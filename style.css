@@ -11,6 +11,10 @@ a {
   color: #1fa6e8;
 }
 
+a:visited {
+  color: #222;
+}
+
 a:hover {  
   text-decoration: underline;
 }
