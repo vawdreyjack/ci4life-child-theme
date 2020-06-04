@@ -7,6 +7,10 @@
  Version:      1.0.0
 */
 
+a {
+  color: #222;
+}
+
 a:hover {
   color: #1fa6e8;
 }
