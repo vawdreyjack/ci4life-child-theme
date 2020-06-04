@@ -32,30 +32,3 @@
 
 	</header><!-- .entry-header -->
 </article><!-- #post-<?php the_ID(); ?> -->
-
-<style>
-    .flex-cont {
-        display:flex; 
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .call-btn {
-        font-size: 24px;
-        padding: 10px;
-        background-color: #1fa6e8;
-        color: #fff !important;
-    }
-</style>
-
-<div class="flex-cont">
-    <div>
-        <img src="https://i1.wp.com/ci4life.org/wp-content/uploads/2020/05/Rick-Hero_Tall.jpg?resize=768%2C544&ssl=1" style="height:200px;"/>
-    </div>
-    <div style="text-align: center; padding:20px;">
-        <h2>Accomplish your career and life goals</h2>
-        <h3>with an extra 31 years of experience</h3>
-        <a class="call-btn" href="/business-coaching">Schedule a free assessment call</a>
-    </div>
-</div>
