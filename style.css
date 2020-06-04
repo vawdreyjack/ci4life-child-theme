@@ -11,7 +11,7 @@ a {
   color: #222;
 }
 
-a:hover {
+a:hover, a:visited {
   color: #1fa6e8;
 }
 
@@ -20,6 +20,10 @@ a:hover {
 }
 
 .site-title a:hover {
+  color: #1fa6e8;
+}
+
+.entry-title a:hover {
   color: #1fa6e8;
 }
 
