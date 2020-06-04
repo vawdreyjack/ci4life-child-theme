@@ -8,11 +8,11 @@
 */
 
 a {
-  color: #222;
+  color: #1fa6e8;
 }
 
-a:hover {
-  color: #1fa6e8;
+a:hover {  
+  text-decoration: underline;
 }
 
 .site-title {
@@ -34,5 +34,9 @@ a:hover {
 .contact-info-area .icon {
   fill: #1fa6e8;
 }
+
+.contact-info-area a:focus, .contact-info-area a:hover {
+  color: #1fa6e8;
+  text-decoration: none;
 
 
