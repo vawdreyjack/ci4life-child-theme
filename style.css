@@ -6,3 +6,6 @@
  Template:     radcliffe-2
  Version:      1.0.0
 */
+.main-navigation li:hover > a, .main-navigation li.focus > a, .main-navigation li.current-menu-item > a {
+    background: #1fa6e8;
+}
