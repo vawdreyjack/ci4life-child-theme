@@ -64,6 +64,11 @@
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
+            background-image: url("/wp-content/uploads/2020/05/office-bg.png");
+        }
+
+        .banner-img {
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
         }
 
         .call-btn {
@@ -76,7 +81,7 @@
 
     <div class="flex-cont">
         <div>
-            <img src="https://i1.wp.com/ci4life.org/wp-content/uploads/2020/05/Rick-Hero_Tall.jpg?resize=768%2C544&ssl=1" style="height:200px;"/>
+            <img class="banner-img" src="/wp-content/uploads/2020/05/Rick-Hero_Tall.jpg?resize=768%2C544&ssl=1" style="height:200px;"/>
         </div>
         <div style="text-align: center; padding:20px;">
             <h2>Accomplish your career and life goals</h2>
