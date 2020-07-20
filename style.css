@@ -7,15 +7,13 @@
  Version:      1.0.0
 */
 
-a {
-  color: #1fa6e8;
-}
-
-a:hover {  
+a, a:visited {
+  color: #222 !important;
   text-decoration: underline;
 }
 
-.site-title {
+.site-title a {
+  text-decoration: none;
   font-family: "Alegreya Sans",sans-serif;
 }
 
