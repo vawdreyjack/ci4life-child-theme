@@ -84,6 +84,11 @@
 				font-size: 16px;
 			}
 		}
+
+		.asterisk {
+			color: red;
+		}
+
     </style>
 
     <div class="flex-cont">
@@ -95,6 +100,53 @@
             <h3>with an extra 31 years of experience</h3>
             <a class="call-btn" href="/business-coaching">Schedule a free assessment call</a>
         </div>
-    </div>
+	</div>
+	
+	<!-- Begin Mailchimp Signup Form -->
+	<div id="mc_embed_signup">
+		<form action="https://gmail.us20.list-manage.com/subscribe/post?u=1f932667c16afe143c8d65922&amp;id=591b59f381" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+			<div id="mc_embed_signup_scroll">
+				<h2>Subscribe</h2>
+				<div class="indicates-required" ><span class="asterisk" >*</span> indicates required</div>
+				<br>
+				<div class="mc-field-group">
+				<label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
+				</label>
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" >
+				</div>
+				<br>
+				<div class="mc-field-group">
+				<label for="mce-FNAME">First Name<span class="asterisk">*</span>
+				</label>
+				<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+				</div>
+				<br>
+				<div class="mc-field-group">
+				<label for="mce-LNAME">Last Name<span class="asterisk">*</span>
+				</label>
+				<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+				</div>
+				<br>
+				<div class="mc-field-group input-group" >
+					<strong>Offer </strong>
+					<br>
+					<input type="checkbox" value="1" name="group[6252][1]" id="mce-group[6252]-6252-0"><label for="mce-group[6252]-6252-0">Mission Statement Template</label>
+				<br>
+				<input type="checkbox" value="2" name="group[6252][2]" id="mce-group[6252]-6252-1">
+				<label for="mce-group[6252]-6252-1">Weekly Game Plan</label>
+
+				</div>
+				<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" ></div>
+				<div class="response" id="mce-success-response" ></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1f932667c16afe143c8d65922_591b59f381" tabindex="-1" value=""></div>
+				<br>
+					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			</div>
+		</form>
+	</div>
+
+	<!--End mc_embed_signup-->
 
 </article><!-- #post-<?php the_ID(); ?> -->
