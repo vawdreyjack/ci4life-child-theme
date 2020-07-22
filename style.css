@@ -37,3 +37,21 @@ a, a:visited {
   color: #1fa6e8;
   text-decoration: none;
 }
+
+
+.site-header {
+  padding: 15px;
+}
+
+.header-wrapper {
+  width: 30%;
+  float: left;
+  padding: 15px
+}
+
+.menu-wrapper {
+  width: 50%;
+  float: left; 
+  padding: 10px;
+  text-align: center;
+}

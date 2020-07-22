@@ -7,10 +7,6 @@ function enqueue_parent_styles() {
 }
 
 //Hide the admin bar for everyone except admins
-add_action('after_setup_theme', 'remove_admin_bar');
- 
-function remove_admin_bar() {
-if (!current_user_can('administrator') && !is_admin()) {
-  show_admin_bar(false);
-}
-}
+if ( ! current_user_can( 'manage_options' ) ) {
+   add_filter('show_admin_bar', '__return_false');
+  }
